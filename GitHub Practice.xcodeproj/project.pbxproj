@@ -11,6 +11,7 @@
 		096899AF2A37A72500CA0C1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096899AE2A37A72500CA0C1A /* ContentView.swift */; };
 		096899B12A37A72700CA0C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096899B02A37A72700CA0C1A /* Assets.xcassets */; };
 		096899B42A37A72700CA0C1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096899B32A37A72700CA0C1A /* Preview Assets.xcassets */; };
+		098B13242A3A4C4E00C30ADB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B13232A3A4C4E00C30ADB /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		096899AE2A37A72500CA0C1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		096899B02A37A72700CA0C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		096899B32A37A72700CA0C1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		098B13232A3A4C4E00C30ADB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				096899AC2A37A72500CA0C1A /* GitHub_PracticeApp.swift */,
 				096899AE2A37A72500CA0C1A /* ContentView.swift */,
+				098B13232A3A4C4E00C30ADB /* SecondView.swift */,
 				096899B02A37A72700CA0C1A /* Assets.xcassets */,
 				096899B22A37A72700CA0C1A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098B13242A3A4C4E00C30ADB /* SecondView.swift in Sources */,
 				096899AF2A37A72500CA0C1A /* ContentView.swift in Sources */,
 				096899AD2A37A72500CA0C1A /* GitHub_PracticeApp.swift in Sources */,
 			);

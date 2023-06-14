@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+
+            
+            ZStack {
             Color(
                 red: 242/255, green: 201/255, blue: 213/255).ignoresSafeArea()
             VStack (alignment: .leading, spacing: 20.0) {
                 Text("Welcome to Study Central!   ")
-                    .font(.custom("American Typewriter", size: 45))
-                    .foregroundColor(Color(hue: 0.287, saturation: 0.298, brightness: 0.817))
+                    .font(.custom("Amatic SC", size: 45))
+                    .foregroundColor(Color(hue: 0.287, saturation: 0.209, brightness: 0.793))
                     .multilineTextAlignment(.center)
               
                 HStack(alignment: .center) {
@@ -28,7 +30,7 @@ struct ContentView: View {
                         .cornerRadius(15)
                     
                     Text("The fun, safe place for studying")
-                        .font(.headline)
+                        .font(.title2)
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.center)
                     
