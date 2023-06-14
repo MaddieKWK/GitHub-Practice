@@ -11,7 +11,12 @@
 		096899AF2A37A72500CA0C1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096899AE2A37A72500CA0C1A /* ContentView.swift */; };
 		096899B12A37A72700CA0C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096899B02A37A72700CA0C1A /* Assets.xcassets */; };
 		096899B42A37A72700CA0C1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096899B32A37A72700CA0C1A /* Preview Assets.xcassets */; };
-		098B13242A3A4C4E00C30ADB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B13232A3A4C4E00C30ADB /* SecondView.swift */; };
+		098B13242A3A4C4E00C30ADB /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B13232A3A4C4E00C30ADB /* Music.swift */; };
+		D06D3D482A3A4F9700266AC3 /* ToDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D472A3A4F9700266AC3 /* ToDos.swift */; };
+		D06D3D4A2A3A501E00266AC3 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D492A3A501E00266AC3 /* Timer.swift */; };
+		D06D3D4C2A3A507600266AC3 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4B2A3A507600266AC3 /* Assignment.swift */; };
+		D06D3D4E2A3A50E400266AC3 /* Aboutus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4D2A3A50E400266AC3 /* Aboutus.swift */; };
+		D06D3D502A3A51D600266AC3 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4F2A3A51D600266AC3 /* Quotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +25,12 @@
 		096899AE2A37A72500CA0C1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		096899B02A37A72700CA0C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		096899B32A37A72700CA0C1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		098B13232A3A4C4E00C30ADB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		098B13232A3A4C4E00C30ADB /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		D06D3D472A3A4F9700266AC3 /* ToDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDos.swift; sourceTree = "<group>"; };
+		D06D3D492A3A501E00266AC3 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		D06D3D4B2A3A507600266AC3 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		D06D3D4D2A3A50E400266AC3 /* Aboutus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aboutus.swift; sourceTree = "<group>"; };
+		D06D3D4F2A3A51D600266AC3 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			children = (
 				096899AC2A37A72500CA0C1A /* GitHub_PracticeApp.swift */,
 				096899AE2A37A72500CA0C1A /* ContentView.swift */,
-				098B13232A3A4C4E00C30ADB /* SecondView.swift */,
+				098B13232A3A4C4E00C30ADB /* Music.swift */,
+				D06D3D472A3A4F9700266AC3 /* ToDos.swift */,
+				D06D3D492A3A501E00266AC3 /* Timer.swift */,
+				D06D3D4B2A3A507600266AC3 /* Assignment.swift */,
+				D06D3D4F2A3A51D600266AC3 /* Quotes.swift */,
+				D06D3D4D2A3A50E400266AC3 /* Aboutus.swift */,
 				096899B02A37A72700CA0C1A /* Assets.xcassets */,
 				096899B22A37A72700CA0C1A /* Preview Content */,
 			);
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				098B13242A3A4C4E00C30ADB /* SecondView.swift in Sources */,
+				D06D3D502A3A51D600266AC3 /* Quotes.swift in Sources */,
+				D06D3D482A3A4F9700266AC3 /* ToDos.swift in Sources */,
+				098B13242A3A4C4E00C30ADB /* Music.swift in Sources */,
 				096899AF2A37A72500CA0C1A /* ContentView.swift in Sources */,
 				096899AD2A37A72500CA0C1A /* GitHub_PracticeApp.swift in Sources */,
+				D06D3D4E2A3A50E400266AC3 /* Aboutus.swift in Sources */,
+				D06D3D4C2A3A507600266AC3 /* Assignment.swift in Sources */,
+				D06D3D4A2A3A501E00266AC3 /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
