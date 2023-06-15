@@ -58,7 +58,7 @@ struct ContentView: View {
                         }
                         
                         
-                        NavigationLink(destination: Timer()) {
+                        NavigationLink(destination: Clock()) {
                                 Text("Study Timers                                          ")
                                     .font(.custom("Amatic SC Bold", size: 25))
                                     .padding()

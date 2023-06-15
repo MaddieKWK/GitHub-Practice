@@ -7,10 +7,13 @@
 
 import SwiftUI
 
-struct Timer: View {
-    @State var countDownTimer = 5
-    @State var timerRunning = false
-    let timer = Timer.publish(every: 1, on: .main, in: .common) .autoconnect()
+struct Clock: View {
+    @State var countDownTimer = 300
+    @State var timerRunning = true
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    func fireTimer() {
+        print("Timer fired!")
+    }
     var body: some View {
         
         VStack {
@@ -42,6 +45,6 @@ struct Timer: View {
 
 struct Timer_Previews: PreviewProvider {
     static var previews: some View {
-        Timer()
+       Clock()
     }
 }
