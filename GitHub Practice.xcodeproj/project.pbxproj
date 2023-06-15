@@ -12,6 +12,7 @@
 		096899B12A37A72700CA0C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096899B02A37A72700CA0C1A /* Assets.xcassets */; };
 		096899B42A37A72700CA0C1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096899B32A37A72700CA0C1A /* Preview Assets.xcassets */; };
 		098B13242A3A4C4E00C30ADB /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B13232A3A4C4E00C30ADB /* Music.swift */; };
+		099079912A3B975C005FEF7C /* To-do app in Resources */ = {isa = PBXBuildFile; fileRef = 099079902A3B975C005FEF7C /* To-do app */; };
 		D06D3D482A3A4F9700266AC3 /* ToDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D472A3A4F9700266AC3 /* ToDos.swift */; };
 		D06D3D4A2A3A501E00266AC3 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D492A3A501E00266AC3 /* Timer.swift */; };
 		D06D3D4C2A3A507600266AC3 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4B2A3A507600266AC3 /* Assignment.swift */; };
@@ -28,6 +29,7 @@
 		096899B02A37A72700CA0C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		096899B32A37A72700CA0C1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		098B13232A3A4C4E00C30ADB /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		099079902A3B975C005FEF7C /* To-do app */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "To-do app"; path = "../../To-do app/To-do app"; sourceTree = "<group>"; };
 		D06D3D472A3A4F9700266AC3 /* ToDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDos.swift; sourceTree = "<group>"; };
 		D06D3D492A3A501E00266AC3 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		D06D3D4B2A3A507600266AC3 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		096899AB2A37A72500CA0C1A /* GitHub Practice */ = {
 			isa = PBXGroup;
 			children = (
+				099079902A3B975C005FEF7C /* To-do app */,
 				D06D3D562A3A80C700266AC3 /* GitHub-Practice-Info.plist */,
 				096899AC2A37A72500CA0C1A /* GitHub_PracticeApp.swift */,
 				096899AE2A37A72500CA0C1A /* ContentView.swift */,
@@ -163,6 +166,7 @@
 				096899B42A37A72700CA0C1A /* Preview Assets.xcassets in Resources */,
 				D06D3D542A3A808D00266AC3 /* AmaticSC-Bold.ttf in Resources */,
 				096899B12A37A72700CA0C1A /* Assets.xcassets in Resources */,
+				099079912A3B975C005FEF7C /* To-do app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
