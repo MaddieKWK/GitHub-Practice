@@ -52,6 +52,7 @@ struct Assignment: View {
                            
                         Text(completeTitle)
                             .font(.headline)
+                            
                         
                         TextField("", text: $time)
                             .multilineTextAlignment(.center)
@@ -75,7 +76,7 @@ struct Assignment: View {
                             textTitle = "\(name)"
                             timeTitle = "Try to complete assignment in \(min)"
                             completeTitle = "by \(time)"
-                            breakTitle = "Takes breaks often! Here is your break scuedule: \(stop)"
+                            breakTitle = "Here is your break scuedule: \(stop)"
                         }
 
                         .font(.title2)

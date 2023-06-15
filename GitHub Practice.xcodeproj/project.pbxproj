@@ -13,9 +13,6 @@
 		096899B42A37A72700CA0C1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096899B32A37A72700CA0C1A /* Preview Assets.xcassets */; };
 		098B13242A3A4C4E00C30ADB /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B13232A3A4C4E00C30ADB /* Music.swift */; };
 		1FCE5CBB2A3BA05E00EA4A93 /* To Do List in Resources */ = {isa = PBXBuildFile; fileRef = 1FCE5CBA2A3BA05E00EA4A93 /* To Do List */; };
-		1FCE5CBD2A3BA1F300EA4A93 /* To_Do_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE5CBC2A3BA1F300EA4A93 /* To_Do_ListApp.swift */; };
-		1FCE5CBF2A3BA20400EA4A93 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE5CBE2A3BA20400EA4A93 /* ToDoItem.swift */; };
-		1FCE5CC12A3BA20800EA4A93 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE5CC02A3BA20800EA4A93 /* ToDoView.swift */; };
 		D06D3D482A3A4F9700266AC3 /* ToDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D472A3A4F9700266AC3 /* ToDos.swift */; };
 		D06D3D4A2A3A501E00266AC3 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D492A3A501E00266AC3 /* Clock.swift */; };
 		D06D3D4C2A3A507600266AC3 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4B2A3A507600266AC3 /* Assignment.swift */; };
@@ -33,9 +30,6 @@
 		096899B32A37A72700CA0C1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		098B13232A3A4C4E00C30ADB /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		1FCE5CBA2A3BA05E00EA4A93 /* To Do List */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "To Do List"; sourceTree = "<group>"; };
-		1FCE5CBC2A3BA1F300EA4A93 /* To_Do_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListApp.swift; sourceTree = "<group>"; };
-		1FCE5CBE2A3BA20400EA4A93 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
-		1FCE5CC02A3BA20800EA4A93 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		D06D3D472A3A4F9700266AC3 /* ToDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDos.swift; sourceTree = "<group>"; };
 		D06D3D492A3A501E00266AC3 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		D06D3D4B2A3A507600266AC3 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
@@ -80,9 +74,6 @@
 				D06D3D562A3A80C700266AC3 /* GitHub-Practice-Info.plist */,
 				096899AC2A37A72500CA0C1A /* GitHub_PracticeApp.swift */,
 				096899AE2A37A72500CA0C1A /* ContentView.swift */,
-				1FCE5CBC2A3BA1F300EA4A93 /* To_Do_ListApp.swift */,
-				1FCE5CBE2A3BA20400EA4A93 /* ToDoItem.swift */,
-				1FCE5CC02A3BA20800EA4A93 /* ToDoView.swift */,
 				1FCE5CBA2A3BA05E00EA4A93 /* To Do List */,
 				098B13232A3A4C4E00C30ADB /* Music.swift */,
 				D06D3D472A3A4F9700266AC3 /* ToDos.swift */,
@@ -186,14 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCE5CC12A3BA20800EA4A93 /* ToDoView.swift in Sources */,
 				D06D3D502A3A51D600266AC3 /* Quotes.swift in Sources */,
 				D06D3D482A3A4F9700266AC3 /* ToDos.swift in Sources */,
-				1FCE5CBF2A3BA20400EA4A93 /* ToDoItem.swift in Sources */,
 				098B13242A3A4C4E00C30ADB /* Music.swift in Sources */,
 				096899AF2A37A72500CA0C1A /* ContentView.swift in Sources */,
 				096899AD2A37A72500CA0C1A /* GitHub_PracticeApp.swift in Sources */,
-				1FCE5CBD2A3BA1F300EA4A93 /* To_Do_ListApp.swift in Sources */,
 				D06D3D4E2A3A50E400266AC3 /* Aboutus.swift in Sources */,
 				D06D3D4C2A3A507600266AC3 /* Assignment.swift in Sources */,
 				D06D3D4A2A3A501E00266AC3 /* Clock.swift in Sources */,

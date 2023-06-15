@@ -15,8 +15,14 @@ struct Clock: View {
         print("Timer fired!")
     }
     var body: some View {
+        ZStack {
+        
+            Image("wallpaper2")
         
         VStack {
+            Text("5 minute Break Timer")
+                .fontWeight(.bold)
+                .font(.custom("Amatic SC Bold", size: 45))
            Text("\(countDownTimer)")
                 .onReceive(timer) { _ in
                     if countDownTimer > 0 && timerRunning {
@@ -33,13 +39,21 @@ struct Clock: View {
                     timerRunning = true
                         
                 }
+                .font(.title2)
+                .buttonStyle(.borderedProminent)
+                .tint(.black)
+                .font(.custom("Amatic SC Bold", size: 45))
                 
                 Button("Reset") {
-                    countDownTimer = 5
+                    countDownTimer = 300
                 }
+                .font(.title2)
+                .buttonStyle(.borderedProminent)
+                .tint(.black)
+                .font(.custom("Amatic SC Bold", size: 45))
             }
         }
-       
+        }
     }
 }
 
