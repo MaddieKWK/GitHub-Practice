@@ -16,10 +16,10 @@ struct ContentView: View {
                 ZStack {
                     Color(
                         red: 242/255, green: 201/255, blue: 213/255).ignoresSafeArea()
-                    VStack (alignment: .leading, spacing: 20.0) {
+                    VStack (alignment: .center, spacing: 20.0) {
                         Text("Welcome to Study Central!   ")
-                            .font(.custom("Amatic SC", size: 45))
-                            .foregroundColor(Color(hue: 0.287, saturation: 0.209, brightness: 0.793))
+                            .font(.custom("Amatic SC Bold", size: 45))
+                            .foregroundColor(Color(hue: 0.353, saturation: 0.388, brightness: 0.405))
                             .multilineTextAlignment(.center)
                         
                         HStack(alignment: .center) {
@@ -32,62 +32,64 @@ struct ContentView: View {
                                 .cornerRadius(15)
                             
                             Text("The fun, safe place for studying")
-                                .font(.title2)
+                                .font(.custom("Amatic SC Bold", size: 30))
                                 .foregroundColor(Color.white)
                                 .multilineTextAlignment(.center)
-                            
                         }
+                        Spacer().frame(height: 60)
+// Buttons setting starts from here
                         NavigationLink(destination: Music()) {
-                            Text("Study Music                                             ")
-                                .font(.title2)
+                            Text("Study Music                                            ")
+                                .font(.custom("Amatic SC Bold", size: 25))
                                 .padding()
-                                .background(Color.blue)
+                                .background(Color(red: 135/255, green: 158/255, blue: 123/255))
+                            
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
                             
                         NavigationLink(destination: ToDos()) {
-                                Text("To Dos                                                       ")
-                                    .font(.title2)
+                                Text("To Dos                                                    ")
+                                    .font(.custom("Amatic SC Bold", size: 25))
                                     .padding()
-                                    .background(Color.blue)
+                                    .background(Color(red: 135/255, green: 158/255, blue: 123/255))
                                     .foregroundColor(.white)
                                     .cornerRadius(10)
                         }
                         
                         
                         NavigationLink(destination: Timer()) {
-                                Text("Study Timers                                           ")
-                                    .font(.title2)
+                                Text("Study Timers                                          ")
+                                    .font(.custom("Amatic SC Bold", size: 25))
                                     .padding()
-                                    .background(Color.blue)
+                                    .background(Color(red: 135/255, green: 158/255, blue: 123/255))
                                     .foregroundColor(.white)
                                     .cornerRadius(10)
                         }
                         
                         NavigationLink(destination: Assignment()) {
                                 Text("Assignment Details                               ")
-                                    .font(.title2)
+                                    .font(.custom("Amatic SC Bold", size: 25))
                                     .padding()
-                                    .background(Color.blue)
+                                    .background(Color(red: 135/255, green: 158/255, blue: 123/255))
                                     .foregroundColor(.white)
                                     .cornerRadius(10)
                         }
                         
                         NavigationLink(destination: Quotes()) {
-                                Text("Motivational Quotes                              ")
-                                    .font(.title2)
+                                Text("Motivational Quotes                             ")
+                                    .font(.custom("Amatic SC Bold", size: 25))
                                     .padding()
-                                    .background(Color.blue)
+                                    .background(Color(red: 135/255, green: 158/255, blue: 123/255))
                                     .foregroundColor(.white)
                                     .cornerRadius(10)
                         }
                         
                         NavigationLink(destination: Aboutus()) {
-                                                        Text("About us                                                   ")
-                                                            .font(.title2)
+                                                        Text("About us                                                ")
+                                                            .font(.custom("Amatic SC Bold", size: 25))
                                                             .padding()
-                                                            .background(Color.blue)
+                                                            .background(Color(red: 135/255, green: 158/255, blue: 123/255))
                                                             .foregroundColor(.white)
                                                             .cornerRadius(10)
                                                 }

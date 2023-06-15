@@ -17,6 +17,8 @@
 		D06D3D4C2A3A507600266AC3 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4B2A3A507600266AC3 /* Assignment.swift */; };
 		D06D3D4E2A3A50E400266AC3 /* Aboutus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4D2A3A50E400266AC3 /* Aboutus.swift */; };
 		D06D3D502A3A51D600266AC3 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4F2A3A51D600266AC3 /* Quotes.swift */; };
+		D06D3D542A3A808D00266AC3 /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06D3D522A3A808D00266AC3 /* AmaticSC-Bold.ttf */; };
+		D06D3D552A3A808D00266AC3 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06D3D532A3A808D00266AC3 /* AmaticSC-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		D06D3D4B2A3A507600266AC3 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
 		D06D3D4D2A3A50E400266AC3 /* Aboutus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aboutus.swift; sourceTree = "<group>"; };
 		D06D3D4F2A3A51D600266AC3 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		D06D3D522A3A808D00266AC3 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
+		D06D3D532A3A808D00266AC3 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		D06D3D562A3A80C700266AC3 /* GitHub-Practice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GitHub-Practice-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 		096899A02A37A72500CA0C1A = {
 			isa = PBXGroup;
 			children = (
+				D06D3D512A3A805000266AC3 /* Fonts */,
 				096899AB2A37A72500CA0C1A /* GitHub Practice */,
 				096899AA2A37A72500CA0C1A /* Products */,
 			);
@@ -63,6 +69,7 @@
 		096899AB2A37A72500CA0C1A /* GitHub Practice */ = {
 			isa = PBXGroup;
 			children = (
+				D06D3D562A3A80C700266AC3 /* GitHub-Practice-Info.plist */,
 				096899AC2A37A72500CA0C1A /* GitHub_PracticeApp.swift */,
 				096899AE2A37A72500CA0C1A /* ContentView.swift */,
 				098B13232A3A4C4E00C30ADB /* Music.swift */,
@@ -83,6 +90,15 @@
 				096899B32A37A72700CA0C1A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D06D3D512A3A805000266AC3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D06D3D522A3A808D00266AC3 /* AmaticSC-Bold.ttf */,
+				D06D3D532A3A808D00266AC3 /* AmaticSC-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06D3D552A3A808D00266AC3 /* AmaticSC-Regular.ttf in Resources */,
 				096899B42A37A72700CA0C1A /* Preview Assets.xcassets in Resources */,
+				D06D3D542A3A808D00266AC3 /* AmaticSC-Bold.ttf in Resources */,
 				096899B12A37A72700CA0C1A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +313,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GitHub Practice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GitHub-Practice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +342,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GitHub Practice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GitHub-Practice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
