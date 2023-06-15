@@ -37,7 +37,7 @@ struct ContentView: View {
                                 .multilineTextAlignment(.center)
                         }
                         Spacer().frame(height: 60)
-// Buttons setting starts from here
+                        // Buttons setting starts from here
                         NavigationLink(destination: Music()) {
                             Text("Study Music                                            ")
                                 .font(.custom("Amatic SC Bold", size: 25))
@@ -47,61 +47,54 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
-                            
+                        
                         NavigationLink(destination: ToDos()) {
-                                Text("To Dos                                                    ")
-                                    .font(.custom("Amatic SC Bold", size: 25))
-                                    .padding()
-                                    .background(Color(red: 135/255, green: 158/255, blue: 123/255))
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
+                            Text("To Dos                                                    ")
+                                .font(.custom("Amatic SC Bold", size: 25))
+                                .padding()
+                                .background(Color(red: 135/255, green: 158/255, blue: 123/255))
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
                         }
                         
                         
                         NavigationLink(destination: Clock()) {
-                                Text("Study Timers                                          ")
-                                    .font(.custom("Amatic SC Bold", size: 25))
-                                    .padding()
-                                    .background(Color(red: 135/255, green: 158/255, blue: 123/255))
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
+                            Text("Study Timers                                          ")
+                                .font(.custom("Amatic SC Bold", size: 25))
+                                .padding()
+                                .background(Color(red: 135/255, green: 158/255, blue: 123/255))
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
                         }
                         
                         NavigationLink(destination: Assignment()) {
-                                Text("Assignment Details                               ")
-                                    .font(.custom("Amatic SC Bold", size: 25))
-                                    .padding()
-                                    .background(Color(red: 135/255, green: 158/255, blue: 123/255))
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
+                            Text("Assignment Details                               ")
+                                .font(.custom("Amatic SC Bold", size: 25))
+                                .padding()
+                                .background(Color(red: 135/255, green: 158/255, blue: 123/255))
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
                         }
                         
                         NavigationLink(destination: Quotes()) {
-                                Text("Motivational Quotes                             ")
-                                    .font(.custom("Amatic SC Bold", size: 25))
-                                    .padding()
-                                    .background(Color(red: 135/255, green: 158/255, blue: 123/255))
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
+                            Text("Motivational Quotes                             ")
+                                .font(.custom("Amatic SC Bold", size: 25))
+                                .padding()
+                                .background(Color(red: 135/255, green: 158/255, blue: 123/255))
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
                         }
                         
-                        NavigationLink(destination: Aboutus()) {
-                                                        Text("About us                                                ")
-                                                            .font(.custom("Amatic SC Bold", size: 25))
-                                                            .padding()
-                                                            .background(Color(red: 135/255, green: 158/255, blue: 123/255))
-                                                            .foregroundColor(.white)
-                                                            .cornerRadius(10)
-                                                }
+                    }
                     }
                     
                 }
             }
-        } else {
+    
             // Fallback on earlier versions
         }
     }
-}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

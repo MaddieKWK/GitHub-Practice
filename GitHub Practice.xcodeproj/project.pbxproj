@@ -16,7 +16,6 @@
 		D06D3D482A3A4F9700266AC3 /* ToDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D472A3A4F9700266AC3 /* ToDos.swift */; };
 		D06D3D4A2A3A501E00266AC3 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D492A3A501E00266AC3 /* Clock.swift */; };
 		D06D3D4C2A3A507600266AC3 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4B2A3A507600266AC3 /* Assignment.swift */; };
-		D06D3D4E2A3A50E400266AC3 /* Aboutus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4D2A3A50E400266AC3 /* Aboutus.swift */; };
 		D06D3D502A3A51D600266AC3 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D3D4F2A3A51D600266AC3 /* Quotes.swift */; };
 		D06D3D542A3A808D00266AC3 /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06D3D522A3A808D00266AC3 /* AmaticSC-Bold.ttf */; };
 		D06D3D552A3A808D00266AC3 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06D3D532A3A808D00266AC3 /* AmaticSC-Regular.ttf */; };
@@ -33,7 +32,6 @@
 		D06D3D472A3A4F9700266AC3 /* ToDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDos.swift; sourceTree = "<group>"; };
 		D06D3D492A3A501E00266AC3 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		D06D3D4B2A3A507600266AC3 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
-		D06D3D4D2A3A50E400266AC3 /* Aboutus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aboutus.swift; sourceTree = "<group>"; };
 		D06D3D4F2A3A51D600266AC3 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		D06D3D522A3A808D00266AC3 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
 		D06D3D532A3A808D00266AC3 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				D06D3D492A3A501E00266AC3 /* Clock.swift */,
 				D06D3D4B2A3A507600266AC3 /* Assignment.swift */,
 				D06D3D4F2A3A51D600266AC3 /* Quotes.swift */,
-				D06D3D4D2A3A50E400266AC3 /* Aboutus.swift */,
 				096899B02A37A72700CA0C1A /* Assets.xcassets */,
 				096899B22A37A72700CA0C1A /* Preview Content */,
 			);
@@ -182,7 +179,6 @@
 				098B13242A3A4C4E00C30ADB /* Music.swift in Sources */,
 				096899AF2A37A72500CA0C1A /* ContentView.swift in Sources */,
 				096899AD2A37A72500CA0C1A /* GitHub_PracticeApp.swift in Sources */,
-				D06D3D4E2A3A50E400266AC3 /* Aboutus.swift in Sources */,
 				D06D3D4C2A3A507600266AC3 /* Assignment.swift in Sources */,
 				D06D3D4A2A3A501E00266AC3 /* Clock.swift in Sources */,
 			);
