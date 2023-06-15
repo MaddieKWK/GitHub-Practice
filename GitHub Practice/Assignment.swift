@@ -14,15 +14,21 @@ struct Assignment: View {
     @State private var stop = "Enter like this: 25 min work - 5 min break"
     @State private var textTitle = "Assignment Name"
     var body: some View {
+        NavigationView {
+            
+            
             ZStack {
                 Image("background")
                 VStack {
-                    
-                    
-                    Text("Assignment Details")
-                        .font(.title)
-                        .fontWeight(.heavy)
-                        .padding()
+                    HStack {
+                        NavigationLink(destination: ContentView()) {Text("Back") }
+                        
+                        Text("Assignment Details")
+                            .font(.custom("Amatic SC Bold", size: 45))
+                            .fontWeight(.heavy)
+                            .padding()
+                    }
+                   
                     
                     Text(textTitle)
                     
@@ -32,7 +38,7 @@ struct Assignment: View {
                         .font(.title2)
                         .border(Color.black, width: 1)
                         .padding()
-                        
+                    
                     
                     Text("Time it takes to complete assigment")
                         .font(.headline)
@@ -43,7 +49,7 @@ struct Assignment: View {
                         .font(.title2)
                         .border(Color.black, width: 1)
                         .padding()
-                        
+                    
                     Text("Complete assignment by-")
                         .font(.headline)
                     
@@ -52,7 +58,7 @@ struct Assignment: View {
                         .font(.title2)
                         .border(Color.black, width: 1)
                         .padding()
-                        
+                    
                     
                     Text("Break Times")
                         .font(.headline)
@@ -62,30 +68,29 @@ struct Assignment: View {
                         .font(.title2)
                         .border(Color.black, width: 1)
                         .padding()
-                       
                     
-//                    NavigationLink(destination: assignmentdetails2()) {
-                        Text("Submit")
-                            .font(.title)
-                            .padding()
-                            .frame(width: 150.0, height: 45.0)
-                            .background(.black)
-                            .foregroundColor(.white)
-                            .cornerRadius(16)
-                        
-                        
-                            .padding()
-                    }
+                    
+                    Text("Submit")
+                        .font(.custom("Amatic SC Bold", size: 27))
+                        .padding()
+                        .frame(width: 150.0, height: 45.0)
+                        .background(.black)
+                        .foregroundColor(.white)
+                        .cornerRadius(16)
+                    
+                    
+                        .padding()
                 }
                 
+            }
                 
             }
         }
         
-        
-        
-        
-        
+    }
+    
+    
+    
     
     
     
@@ -95,4 +100,5 @@ struct Assignment: View {
             Assignment()
         }
     }
+    
 
