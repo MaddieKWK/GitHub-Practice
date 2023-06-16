@@ -38,7 +38,7 @@ struct ContentView: View {
                         }
                         Spacer().frame(height: 60)
                         // Buttons setting starts from here
-                        NavigationLink(destination: Music()) {
+                        NavigationLink(destination: MusicScreen()) {
                             Text("Study Music                                            ")
                                 .font(.custom("Amatic SC Bold", size: 25))
                                 .padding()
