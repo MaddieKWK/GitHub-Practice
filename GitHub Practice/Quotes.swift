@@ -27,14 +27,16 @@ struct Quotes: View {
     
             
             Text("''Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.'' - Pelé, Brazillian pro footballer")
-                .font(.custom("Amatic SC Bold", size: 23))                .foregroundColor(Color(hue: 0.892, saturation: 0.57, brightness: 0.794))
+                .font(.custom("Amatic SC Bold", size: 20))                .foregroundColor(Color(hue: 0.892, saturation: 0.57, brightness: 0.794))
                 .padding(10.0)
             
+            Text("''There are no secrets to success. It is the result of preparation, hard work, and learning from failure.'' - General Colin Powell, former US Secretary of State")
+                .font(.custom("Amatic SC Bold", size: 20))                .foregroundColor(Color.white)
+                .padding(10.0)
             
-            
-            
-            
-
+            Text("''However difficult life may seem, there is always something you can do and succeed at.'' - Stephen Hawking")
+                .font(.custom("Amatic SC Bold", size: 20))                .foregroundColor(Color(hue: 0.892, saturation: 0.57, brightness: 0.794))
+                .padding(10.0)
             
             
         }

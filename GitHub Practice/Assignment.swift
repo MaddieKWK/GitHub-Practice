@@ -25,55 +25,51 @@ struct Assignment: View {
                         
                         
                         Text("Assignment Details")
-                            .font(.title)
-                            .fontWeight(.heavy)
+                            .font(.custom("Amatic SC Bold", size: 43))                            .fontWeight(.heavy)
                             .foregroundColor(Color(hue: 0.284, saturation: 0.291, brightness: 0.763))
                             .padding()
                         
                         Text(textTitle)
-                            
-                        
+                            .font(.custom("Amatic SC Bold", size: 21))
                         TextField("", text: $name)
                             .multilineTextAlignment(.center)
                             .font(.title2)
-                            .border(Color.black, width: 1)
+                            .border(Color.white, width: 1)
                             .padding()
                             
                         
                         Text(timeTitle)
-                            .font(.headline)
-                            .foregroundColor(Color(hue: 0.395, saturation: 1.0, brightness: 0.017))
+                            .font(.custom("Amatic SC Bold", size: 21))                               .foregroundColor(Color(hue: 0.395, saturation: 1.0, brightness: 0.017))
                         
                         TextField("", text: $min)
                             .multilineTextAlignment(.center)
                             .font(.title2)
-                            .border(Color.black, width: 1)
+                            .border(Color.white, width: 1)
                             .padding()
                            
                         Text(completeTitle)
-                            .font(.headline)
-                            
+                            .font(.custom("Amatic SC Bold", size: 21))
                         
                         TextField("", text: $time)
                             .multilineTextAlignment(.center)
                             .font(.title2)
-                            .border(Color.black, width: 1)
+                            .border(Color.white, width: 1)
                             .padding()
                            
                         
                         Text(breakTitle)
-                            .font(.headline)
-                        
+                            .font(.custom("Amatic SC Bold", size: 21))
                         TextField("", text: $stop)
                             .multilineTextAlignment(.center)
                             .font(.title2)
-                            .border(Color.black, width: 1)
+                            .border(Color.white, width: 1)
                             .padding()
                            
                         
                         
                         Button("Submit") {
                             textTitle = "\(name)"
+                        
                             timeTitle = "Try to complete assignment in \(min)"
                             completeTitle = "by \(time)"
                             breakTitle = "Here is your break scuedule: \(stop)"

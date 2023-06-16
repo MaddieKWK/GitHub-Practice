@@ -14,16 +14,20 @@ struct ToDos: View {
     @State private var four = "Assignment Four"
     var body: some View {
         ZStack {
-            Image("Background 1")
-               
-               
+            
+            GeometryReader { geo in
+            Image("Back")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+            }
             
         VStack {
             Text("To Do List")
-                .font(.title)
-                .fontWeight(.semibold)
+                .font(.custom("Amatic SC Bold", size: 40))                .fontWeight(.semibold)
             
-            TextField("", text: $one)
+            Text("Add any assignments or tests you have to study for!")
+                .font(.custom("Amatic SC Bold", size: 21));            TextField("", text: $one)
                 .multilineTextAlignment(.center)
                 .font(.title2)
                 .border(Color.black, width: 1)
